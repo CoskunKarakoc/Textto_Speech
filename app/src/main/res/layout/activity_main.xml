@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/adBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:textSize="20sp"
+            android:hint="Ad Soyad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/adText"  />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/numaraBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:textSize="20sp"
+            android:hint="Numara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/numaraText"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/vizeBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:textSize="20sp"
+            android:hint="Vize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/vizeText"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/finalBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:textSize="20sp"
+            android:hint="Final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/finalText"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ortBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/equal"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:textSize="20sp"
+            android:hint="Ortalama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/ortText"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kaydetBtn"
+            android:text="KAYDET"
+            android:background="#4DB6AC"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/silBtn"
+            android:text="SİL"
+            android:background="#4DB6AC"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sorgulaBtn"
+            android:text="SORGULA"
+            android:background="#4DB6AC"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listeleBtn"
+            android:text="LİSTELE"
+            android:background="#4DB6AC"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+
